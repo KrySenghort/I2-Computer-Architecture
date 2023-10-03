@@ -1,0 +1,219 @@
+What are GPUs?
+A Graphics Processor Unit (GPU) is a specialised electronic processor, which is programmed to render all images on a computer screen.
+
+A GPU is an electronic circuit with is specialised and designed to quickly handle and alter memory to accelerate the formation of images in a frame buffer, which will eventually be rendered on to become an output/displayed on a device, like a mobile screen or television.
+
+A GPU is a standalone single peripheral, which is part of the motherboard chipset or the CPU, the chip itself.
+
+The more advanced a GPU is, the better it’ll perform, meaning the system will possess a higher resolution and a smoother motion on the device.
+
+It is commonly misconceived that GPUs are just used for computer gaming, however, these processors are used for a range of different systems other than for computer game graphics. A new commonly used use of GPUs is bitcoin mining for instance.
+
+GPUs are not to be mixed up with CPU’s:
+
+A Central Processing Unit (CPU), is the central processor in the system that is placed on the motherboard/mainboard, where mathematical calculations take place. It is considered to be the most important part of a computer system.
+
+GPU (Graphical Processing Unit)	CPU (Central Processing Unit)
+Renders images faster than a CPU due to the parallel processing system. This architecture allows the GPU to execute multiple calculations at the same time.	One single CPU does not have the ability to process multiple calculations at the same time. However, a multicore processor system can process multiple calculations due to having more than one CPU on the same chip
+Lower clock speed than CPU	Higher clock speed. Although they process only single calculations, they perform them faster. So this means they can handle basic computing tests faster
+Composed of hundreds of cores, which allow it to handle threads at the same time. This can allow a system software to accelerate by over 100x over the CPU speed	Few cores with lots of cache memory, meaning it can only handle a few software threads at a time
+Although the CPU is considered to be the brain of the computer (by itself), however, the brain is supplemented by the GPU, which can be considered to act as the soul of the system.
+
+Overall, a GPU is designated for data parallelism and applying the same operation to Single Instruction Multiple Data  (SIMD) items. Though a CPU is designed to execute tasks and do different operations (task parallelism).
+
+Illustration sample of Graphics Processor Unit
+How do GPUs work?
+The GPU main role is to render images, however, to do this, it requires space to hold the information which is required to make the full completed image, therefore it uses RAM (Random Access Memory) to store this data. The data consists of each pixel associated with the image, as well as its colour and its location on the screen.
+
+A pixel can be defined as a physical point in a raster image, which is a dot matrix data structure that represents a rectangular grid of pixels (points of colour).
+
+The RAM can also hold completed images until it’s time for them to be displayed, this is referred to as a frame buffer.
+
+In order for the monitor to display the image in analogue form, the RAM will be directly connected to a DAC  (digital-to-analogue convertor), which will translate the image into an analogue signal that the monitor can use. Some systems have more than one RAM-DAC, which can improve performance and support the use of more than one monitor.
+
+A good measurement of how well a GPU works is the frame rate, which is measured in frames per second (FPS). This frame rate dictates how many completed images can be rendered on display per second.
+
+To compare, the human eye can process around 25 frames per second, however fast action games must process at least 60 frames per second to provide a smooth game scroll and flow.
+
+Major Components of a GPU:
+Texture Mapping:
+
+Number of texture mapping units in a design dictates its maximum textural output and how fast it can “address” and “map” the textures onto the objects.
+
+Render Outputs:
+
+Render outputs is where the GPU outputs is all assembled into an image to be displayed on the system i.e. a phone, TV
+
+Components of frame rate are:
+
+Triangles or vertices per second:
+The 3D images that can be seen on a screen are formed of triangles and polygons. This measurement portrays how quickly a graphic processing unit can calculate the whole shape of a polygon or vertices that make it.
+Pixel fill rate:
+This measurement explains how many pixels can be processed in a GPU per second. It describes how quickly it can rasterise an image.
+
+GPUs software, as well as hardware, affect it’s performance, below are the hardware specifications that affect the graphic card speed the most:
+
+GPU clock speed (MHz)
+An indication of how fast the cores of a GPU is.
+Size of the memory bus (bits)
+A computer bus, which comes in a set of wires which connects electrical components to allow them to transfer data.
+Amount of available memory (MB)
+GPU uses memory heavily, to store the images that will be rendered.
+Memory clock rate (MHz)
+The speed at which memory works at.
+Memory bandwidth (GB/s)
+This refers to the amount of data that can be copied to and from the graphical processors VRAM (video RAM).
+RAMDAC speed (MHz) (Random Access Memory – Digital Analog Converter)
+Speed at which the image can be translated to an analog signal when it is sent to the DAC (Digital-to-Analog Convertor).
+The computer CPU and motherboard also play a vital role in the performance of the graphical processor. This is because a very fast graphics card can’t compensate for a motherboard incapacity to deliver data at a fast rate.
+
+To improve both image quality and performance, the processors use:
+
+Full scene anti aliasing (FSAA): which will smooth out the edges of 3-D objects.
+Anisotropic filtering (AF): which makes images look crisp.
+Types of GPUs:
+There are two types of GPU, integrated and discrete:
+
+Integrated GPU:
+
+The term-integrated graphics refers to a computer where the GPU is built on the same chip as the CPU (on the same “die”).
+
+Being built alongside the CPU allows for a handful of benefits such as: energy efficiency, small in size, and less costly than the opposed discrete GPU.
+
+Integrated GPUs utilise the system RAM, rather than having their own RAM like discrete GPUs.
+
+The upside of integrated GPUs is that they don’t generate as much heat nor consume as much power as discrete GPUs, they also cost less to purchase.
+
+Discrete GPU:
+
+A discrete GPU is a dedicated graphics card, which is completely separate from the CPU. The graphics card encapsulates the GPU, which can be used to process elements and instructions separately from the CPU.
+
+A discrete graphic card comes with their own form of video RAM (VRAM, video random access memory), this attribute gives the discrete GPU quick access to image data.
+
+A very big downfall of using a dedicated graphics card is that they generated a lot of heat, the GPU is often the hottest running peripheral on a system like a computer, which also means that they require a healthy power supply.
+
+Which system is best for you?
+
+Each GPU has its applications, so it ultimately depends on what type of system you desire or you’re after.
+
+With a discrete GPU, users can enjoy a greater amount of RAM, and a faster CPU, as-swell as better graphics, and a greater amount of hard drive space for storage, therefore discrete GPUs suit people who are serious gamers or professionals who do graphic work.
+
+If a person requires a computer system to browse the web, use page editors, then an integrated GPU is sufficient and you won’t be paying a price for something you don’t need. This doesn’t mean you can’t play games on integrated GPU, however, the quality will be compromised compared to discrete GPUs.
+
+Examples of GPU applications/computing:
+Gaming
+
+The original use for computerised GPUs was for 3D gaming. Modern GPUs in gaming nowadays are have become so advanced that they allow the user to build and play with their own animated character i.e. Fortnite.
+
+Productivity
+
+From an OS perspective, GPUs allow for constant improved updates, whether it was on a Apple OS, Windows or Linux. This allows the applications that are on the computer i.e. Microsoft PowerPoint, Photoshop, and Pages, to work at a more efficient and productive rate, decreasing computational lag.
+
+Media and Entertainment
+
+A significant area, which demands high-level GPUs, is video editing, as it requires heavy use of system resources. Program applications such as Adobe Premiere Elements 9, iMovie, Final Cut Pro, and Filmora 9 etc all use a significant amount of the GPU as they try to render animations and previews efficiently.
+
+Generally speaking, video professionals are always look for better equipment to increase productivity and deliver great work results, at a faster rate, for instance, working with a high resolution camera format, working with more than 1 video stream at a time, adding complex effects, and interactively working with modelled scenes and/or characters at the same time to achieve real world effects all while not heavily slowing the system down.
+
+Using a powerful and advanced workstation can produce incredibly efficient results with the smallest amount possible in production costs.
+
+Bioinformatics
+
+Bioinformatics involves sequencing and protein docking. To perform and execute the actions the users wants, this involves calculating very intensive tasks that seek high performance GPUs such as “CUDA”.
+
+Data Science, Analytics, and Databases
+
+To achieve more real time business decisions based on lengthy big data analytics.
+
+Defence and Intelligence
+
+Within these defence and intelligence organisations, high level, accurate, timely data is of its upmost importance. This is to execute strategic day-to-day operations precisely. To achieve this, data is continuously arriving from sources far afield such as satellites, UAV’s (Unmanned aerial vehicles), radars, and surveillance cameras etc. All the raw data from various sources must be converted to information the computer systems can understand.
+
+The systems themselves need to have the required hardware, software, and power to manage all the data flow.
+
+Using specialised graphic cards (GPU) increases productivity while reducing the cost and power.
+
+Machine Learning
+
+Data scientists and architects have been using GPUs to make enhancements as well as breakthroughs in artificial intelligence, image classification, speech recognition, video analytics, and language processing.
+
+It is true that machine learning has been around for decades, however in recent years the high usage of training data has increased, and powerful as well as more efficient computing systems have been provided due to advancement in GPUs.
+
+Medical Imaging
+
+The field of medical imaging is one of the first adopters to take advantage of any increase in GPU acceleration. This field is becoming so advanced that some medical appliances are using NVIDIA’s Tesla GPU nowadays.
+
+Automation segmentation algorithms have benefited greatly from the incorporation of GPU computing into image processing workflow.
+
+New visual paradigms such as stereoscopic 3D (creating and enhancing the illusion of depth in an image), have been made possible due to an increase in the computational capacity of a GPU.
+
+The functions above will aid medical imaging to keep on track with the increasing size of scan data sets while allowing for new enhanced analysis and interaction paradigms.
+
+Weather and Climate
+
+A major use of advanced GPUs is in predicting weather/earthquakes/tsunamis etc. Advanced GPUs aid scientists and professionals to increase the efficiency and correctness of data to minuet detail to predicting climate.   
+
+Cryptocurrency mining:
+
+Initially, before the big cryptocurrency breakout, cryptocurrency was mined using CPUs, as people were able to mine i.e. bitcoin, from their home laptop.
+
+Nowadays, however, bitcoin mining is GPU based, this offer speed 800 times faster than CPUs.
+
+Summary and Facts:
+A Graphical Processing Unit (GPU) occasionally called a “Visual Processing Unit” (VPU), is a specialised processor placed in an electronic chip that is mounted on a graphic card. The GPU offloads 3D graphical data that will be rendered from the microprocessor.
+
+A GPU is a standalone single peripheral, which is part of the motherboard chipset or the CPU, chip itself.
+
+Today’s GPUs aren’t only great for graphics, they are also parallel processors, which are programmable for arithmetic calculations, furthermore, they also feature memory bandwidth that is substantially a CPU (Central Processing Unit).
+
+The use of GPU computing is increasing as the world evolves, and more important as we humans require a demand for an increasing inefficiency. The single-threaded processor performance is no longer scaling to the demand and expectations we possess. Hence the use of a parallel system has increased the performance and allowed for more efficient rendering. 
+
+How do GPUs work?
+
+The GPU render images, however also it requires a space to hold the information and the full completed image, therefore it uses RAM (Random Access Memory) to store this data, the RAM will be directly connected to a DAC  (digital-to-analog convertor), which will translate the image into an analog signal that the monitor can use. Some systems have more than one RAM-DAC, which can improve performance and support more than one monitor.
+Major Components of a GPU:
+
+Texture Mapping:
+Number of texture mapping units in a design dictates its maximum textural output and how fast it can address and map the textures onto the objects.
+Render Outputs:
+Render outputs is where the graphical processors outputs is all assembled into the image on the system.
+Components of frame rate are:
+Triangles or vertices per second
+Pixel fill rate
+Hardware specifications that affect the graphic card speed the most:
+
+GPU clock speed (MHz)
+Size of the memory bus (bits)
+Amount of available memory (MB)
+Memory clock rate (MHz)
+Memory bandwidth (GB/s)
+RAM-DAC speed (MHz)
+CPU
+Motherboard
+GPUs are not to be mixed up with CPU’s:
+
+GPU = Graphical Processing Unit
+CPU = Central Processing Unit
+There are two types of GPU, integrated and discrete:
+
+Integrated GPU
+Discrete GPU
+Integrated GPU	Discrete GPU
+Don’t have their own RAM, however placing a GPU and a CPU both on the same chip means either one of them must be limited	Have their own RAM
+Far less power is used	Uses more power
+Cheaper	Cost much more
+Less heat generation	Generates a lot of heat
+Ultimately while discrete GPUs will provide more power, better quality graphics, and better performance than integrated GPUs, the reality is most users will be better off purchasing an integrated GPU. This is primarily because they cost less, therefore users will be getting what they pay for and use it, rather than paying a lot more for a dedicated GPU and not using what it’s specialised for.
+
+Examples of GPU applications/computing:
+
+Gaming
+Productivity
+Media and Entertainment
+Bioinformatics
+Data Science, Analytics, and Databases
+Defence and Intelligence
+Machine Learning
+Medical Imaging
+Weather and Climate
+Cryptocurrency mining

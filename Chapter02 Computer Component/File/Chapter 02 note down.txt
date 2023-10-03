@@ -1,0 +1,29 @@
+-   Bus is a component that use to transfer data simultaneously(at the same time) and it can also transmit electrocity.
+-   To put more screen monitors, we should add more VGA Card that has two pots.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
